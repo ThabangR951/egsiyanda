@@ -1,0 +1,235 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+
+    font-family: sans-serif;
+    background-color: #ffffff;
+    margin:0;
+    padding:0;
+}
+
+.header3{
+
+    background-color: rgb(173, 49, 49);
+    background-image: linear-gradient(rgba(242, 243, 227, 0.7),rgba(53, 53, 7, 0.877)),url(images/R\ \(1\).jpg);
+    object-fit:cover;
+    letter-spacing: ;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.Headder{
+    text-emphasis-color:#ffff ;
+    background-color: #4e4b4b;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.7);
+    padding: 30px 50px;
+    text-emphasis-color: #ffff;
+}
+
+.container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-color: #ecf80a;
+    border-radius: 20;
+    position: center;
+    width: 80%;
+    margin: left;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    justify-content: center;
+
+    transition: 0.5s;
+
+}
+.container:hover{
+    box-shadow: 0 0 20px rgba(240, 253, 56, 0.8);
+
+
+}
+
+.form1{
+    padding: 30px 40px;
+   
+}
+.form1-control{
+    justify-items: center;
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+
+}
+
+.cta2{
+    margin: 100px auto;
+ 
+    width: 80%;
+    background-image: linear-gradient(rgba(245, 253, 124, 0.7),rgba(17, 17, 17, 0.7)),url(images/test1.jpg);
+    text-align: center;
+    padding: 100px 0;
+    background-position: center;
+    background-size: cover;
+  
+}
+.cta2 h1{
+    color: azure;
+    margin-bottom: 40px;
+    padding: 0%;
+
+}
+@media(max-width:700px){
+    .cta2 h1{
+        font-size: 25px;
+    }
+
+}
+.SButton{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    border: 1px lid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.SButton:hover{
+    border:1px solid #ebfc04;
+    background: #ebfc04 ;
+    transition: 0.2s;
+
+}
+
+nav .glyphicon glyphicon-remove{
+    display: block;
+}
+@media(max-width :700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-links ul li {
+        display:block
+    }
+    .nav-links{
+        position: absolute;
+        background: #f2fd54;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa{
+        display: block;
+        color: #ebfc04;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 20px;
+
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+}
+.form1-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+.form1-control input{
+    border-radius: 4px;
+    border: 3px solid #f2fd54;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+
+}
+.form1-control i {
+    position: absolute;
+    top: 40px;
+    visibility: hidden;
+
+    right: 10px;
+}
+.form1-control span {
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+
+    right: 10px;
+}
+.form1-control small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.form1 button {
+    background-color: rgb(201, 236, 75);
+    padding: 10px;
+    align-items: center;
+    width: 80%;
+    border-radius: 10px;
+    transition: 1.0s;
+}
+.form1 button:hover{
+    box-shadow: 0 0 20px rgba(10, 10, 10, 0.8);
+
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+  
+}
+.nav-links{
+    flex: 1;
+    text-align: left;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    font-size: 13px;
+
+}
+.nav-links ul li::after{
+    content: '';
+    transition: 0.5s;
+    width: 0%;
+    height: 2px;
+    background: #1ce4d3;
+    display: block;
+    margin: auto;
+
+}
+.nav-links ul li:hover::after{
+
+    width: 100%;
+}
+
+
+
+
